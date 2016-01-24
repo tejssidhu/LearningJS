@@ -57,37 +57,58 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="JSBasics.aspx" />
-    <Content Include="JSFunctions.aspx" />
-    <Content Include="OOJS.aspx" />
+    <Content Include="1JSBasics.aspx" />
+    <Content Include="2JSFunctions.aspx" />
+    <Content Include="3OOJS.aspx" />
+    <Content Include="4PracticalJSLessons.aspx" />
+    <Content Include="RequiresDemo.aspx" />
+    <Content Include="Scripts\RequiresDemo\customer.js" />
     <Content Include="Scripts\JSBasics.js" />
     <Content Include="Scripts\JSFunctions.js" />
+    <Content Include="Scripts\RequiresDemo\main.js" />
     <Content Include="Scripts\OOJS.js" />
+    <Content Include="Scripts\PracticalJSlessons.js" />
+    <Content Include="Scripts\RequiresDemo\order.js" />
+    <Content Include="Scripts\RequiresDemo\require.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JSBasics.aspx.cs">
-      <DependentUpon>JSBasics.aspx</DependentUpon>
+    <Compile Include="1JSBasics.aspx.cs">
+      <DependentUpon>1JSBasics.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="JSBasics.aspx.designer.cs">
-      <DependentUpon>JSBasics.aspx</DependentUpon>
+    <Compile Include="1JSBasics.aspx.designer.cs">
+      <DependentUpon>1JSBasics.aspx</DependentUpon>
     </Compile>
-    <Compile Include="JSFunctions.aspx.cs">
-      <DependentUpon>JSFunctions.aspx</DependentUpon>
+    <Compile Include="2JSFunctions.aspx.cs">
+      <DependentUpon>2JSFunctions.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="JSFunctions.aspx.designer.cs">
-      <DependentUpon>JSFunctions.aspx</DependentUpon>
+    <Compile Include="2JSFunctions.aspx.designer.cs">
+      <DependentUpon>2JSFunctions.aspx</DependentUpon>
     </Compile>
-    <Compile Include="OOJS.aspx.cs">
-      <DependentUpon>OOJS.aspx</DependentUpon>
+    <Compile Include="3OOJS.aspx.cs">
+      <DependentUpon>3OOJS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="OOJS.aspx.designer.cs">
-      <DependentUpon>OOJS.aspx</DependentUpon>
+    <Compile Include="3OOJS.aspx.designer.cs">
+      <DependentUpon>3OOJS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4PracticalJSLessons.aspx.cs">
+      <DependentUpon>4PracticalJSLessons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4PracticalJSLessons.aspx.designer.cs">
+      <DependentUpon>4PracticalJSLessons.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequiresDemo.aspx.cs">
+      <DependentUpon>RequiresDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RequiresDemo.aspx.designer.cs">
+      <DependentUpon>RequiresDemo.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="JSBasics.aspx.cs" Inherits="JavascriptLearning.JSBasics" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1JSBasics.aspx.cs" Inherits="JavascriptLearning.JSBasics" %>
 
 <!DOCTYPE html>
 
